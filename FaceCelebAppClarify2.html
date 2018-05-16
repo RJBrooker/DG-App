@@ -237,6 +237,7 @@
 	      document.getElementById("add-image-button").style.visibility = "visible";
 	    },
 	    function(err) {
+			 alert(JSON.stringify(err))
 	      console.log(err);
 			location.reload()
 	    }
