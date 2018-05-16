@@ -419,7 +419,7 @@
 	}
   
   </script>
-  <script type="text/javascript" src="https://sdk.clarifai.com/js/clarifai-latest.js" async></script>
+  <script type="text/javascript" src="https://sdk.clarifai.com/js/clarifai-latest.js" ></script>
   <script>
   try {
     var app = new Clarifai.App({
@@ -427,7 +427,6 @@
     });
   }
   catch(err) {
-	 alert(JSON.stringify(err))
     alert("Need a valid API Key!");
     throw "Invalid API Key";
   }
